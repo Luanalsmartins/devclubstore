@@ -112,6 +112,8 @@ header nav ul li:hover::after {
     height: 200px;
     top: 10%;
     left: 10%;
+
+    animation: sobeEDesce 15s infinite alternate;
 }
 
 .circle:nth-child(2) {
@@ -119,6 +121,8 @@ header nav ul li:hover::after {
     height: 300px;
     top: 60%;
     left: 80%;
+
+    animation: sobeEDesce 15s infinite alternate;
 }
 
 .circle:nth-child(3) {
@@ -126,6 +130,8 @@ header nav ul li:hover::after {
     height: 150px;
     top: 70%;
     left: 20%;
+
+    animation: sobeEDesce 15s infinite alternate;
 }
 
 .circle:nth-child(4) {
@@ -133,6 +139,20 @@ header nav ul li:hover::after {
     height: 120px;
     top: 20%;
     left: 70%;
+
+    animation: sobeEDesce 15s infinite alternate;
+}
+
+@keyframes sobeEDesce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .list {
